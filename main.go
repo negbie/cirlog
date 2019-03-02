@@ -29,14 +29,9 @@ var BuildID string
 var version string
 
 var validParsers = []string{
-	"arangodb",
 	"csv",
 	"json",
 	"keyval",
-	"mongo",
-	"mysql",
-	"nginx",
-	"postgresql",
 	"regex",
 	"syslog",
 }
